@@ -40,3 +40,30 @@ for(const li of liCollection2){
 }
 
 // querySelector returns first element
+
+
+
+// Dynamic Styling
+document.body.style.backgroundColor= "tomato";
+
+
+// getAttribute
+const title = document.getElementById("fruits-li-title")
+
+console.log(title.getAttribute('class'));
+
+// classList
+console.log(title.classList);
+
+// add class
+title.classList.add("newClass")
+
+// setAttribute
+const liItem= document.getElementById("fruit-title")
+
+liItem.setAttribute("title","tootip set")
+
+
+// innerHTML
+const item2 = document.getElementById("fruits-li-title")
+console.log(item2.innerHTML)
