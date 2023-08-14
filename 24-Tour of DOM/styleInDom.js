@@ -14,3 +14,22 @@ for(const section of sections){
   section.style.backgroundColor="lightGray"
 }
 
+
+
+// classList 
+// add 
+// childNodes
+const placesContainer = document.getElementById("places-container")
+console.log(placesContainer);
+placesContainer.classList.add("new-class")
+console.log(placesContainer.childNodes);
+
+
+// innerHTML
+const newClass = document.getElementsByClassName("new-class")
+
+newClass[0].innerHTML=
+`
+  <div class="box">
+  </div>
+`
