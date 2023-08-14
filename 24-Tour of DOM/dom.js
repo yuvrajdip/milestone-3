@@ -28,3 +28,15 @@ console.log(liItems);
 for(const li of liItems){
   console.log(li.innerText);
 }
+
+
+//* querySelectorAll returns NodeList
+//* NodeList is static
+const liCollection2 = document.querySelectorAll(".fruit-container li");
+
+console.log(liCollection2);
+for(const li of liCollection2){
+  console.log(li.innerText);
+}
+
+// querySelector returns first element
